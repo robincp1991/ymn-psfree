@@ -1,7 +1,7 @@
 <html manifest="ymn.cache">
     
 <head>
-    <title>52810230 ---> YMN Host PS4Free <--- 52810230</title>
+    <title>YMN Host PS4Free</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body 
@@ -90,7 +90,7 @@
     </style>
      
      <script>
-	    history.replaceState(null,null,'index.html');var histlength=history.length;history.go(-histlength);
+	history.replaceState(null,null,'index.html');var histlength=history.length;history.go(-histlength);
         window.applicationCache.ondownloading=function(){document.getElementById("progress").innerHTML="Cache de host iniciado!!";};
         window.applicationCache.onprogress=function(a){document.getElementById("progress").innerHTML=(Math.round(100*(a.loaded/a.total)))+"%";};
         window.applicationCache.oncached=function(){document.getElementById("progress").innerHTML="Cache almacenado exitosamente!!";setTimeout(function(){document.getElementById("progress").innerHTML="Apaga el Internet & Abre de nuevo el navegador!!";allset(); }, 1500);};
